@@ -17,8 +17,7 @@ from pyrogram import Client
  поэтому используйте актуальный номер, связанный с вашей активной учетной записью Telegram. 
 """
 app = Client(
-    #"telegram_delete_message",  # название этой программы в конфигурационном файле в директории откуда запускаете скрипт
-    "my_account",
+    "telegram_delete_message",  # название этой программы в конфигурационном файле в директории откуда запускаете скрипт
     api_id="xxxxxxxxxxx",  # ваш api_id в кавычках
     api_hash="xxxxxxxxxxxxxxxxxxxxxxxx"  # ваш api_hash в кавычках
 )
