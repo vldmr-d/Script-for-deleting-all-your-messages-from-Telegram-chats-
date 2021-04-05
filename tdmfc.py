@@ -19,7 +19,7 @@ from pyrogram import Client
 app = Client(
     #"telegram_delete_message",  # название этой программы в конфигурационном файле в директории откуда запускаете скрипт
     "my_account",
-    api_id="xxxxxxxxxxx",  # ваш api_id в кавічках
+    api_id="xxxxxxxxxxx",  # ваш api_id в кавычках
     api_hash="xxxxxxxxxxxxxxxxxxxxxxxx"  # ваш api_hash в кавычках
 )
 
